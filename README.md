@@ -1,6 +1,6 @@
 # 19CS301-Module 3
-- **Name:** Nevil Joe Ferdin P 
-- **Registration Number:** 212222050041
+- **Name:** Mohamed Munthasir Y
+- **Registration Number:** 212222220025
 
 ## Exp.No:3(a)	STRING- FIND AND REPLACE
 ### AIM
