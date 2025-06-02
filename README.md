@@ -1,5 +1,8 @@
-# 19CS301-Module33
-Exp.No:3(a)	STRING- FIND AND REPLACE
+# 19CS301-Module 3
+- **Name:** Nevil Joe Ferdin P 
+- **Registration Number:** 212222050041
+
+## Exp.No:3(a)	STRING- FIND AND REPLACE
 ### AIM
 To write a python function to accept a string, word to be replaced and replace the words of the string, get the new word to be replaced from the user.
 ### ALGORITHM
@@ -20,7 +23,11 @@ Step 7:	 Display the modified string (str3) to show the user the string after th
 Step 8:	 Terminate the program.
 
 ### PROGRAM
-```def replacestr(str1,replace_str):
+```python
+# Name : Nevil Joe Ferdin P
+# Reg No : 212222050041
+
+def replacestr(str1,replace_str):
     str2=input()
     str3=str1.replace(replace_str,str2)
     print(f"The old string is {str1}\nthe new string is {str3}")
@@ -32,7 +39,7 @@ Step 8:	 Terminate the program.
 Thus the python program of find and replace is implemented and executed successfully.
 
 
-Exp.No:3(b)	REGEX-PATTERN MATCHING USING REGEX
+## Exp.No:3(b)	REGEX-PATTERN MATCHING USING REGEX
 
 ### AIM
 To write a Python program that matches a string that has an a followed by two to three 'b'.
@@ -54,7 +61,11 @@ Step 6:	 Print "Not matched!" if the string does not match the pattern.
 Step 7:	 Terminate the program.
 
 ### PROGRAM
-```import re
+```python
+# Name : Nevil Joe Ferdin P
+# Reg No : 212222050041
+
+import re
 str1=input()
 pattern=r"[a]+b{2,3}"
 if re.match(pattern,str1):
@@ -68,7 +79,7 @@ else:
 ### RESULT
 Thus the python program for pattern matching using regular expression was  implemented and executed successfully.
 
-Exp.No:3(c)	LIST- EVEN NUMBERS LIST
+## Exp.No:3(c)	LIST- EVEN NUMBERS LIST
 
 ### AIM
 To write a python function that accepts N and to create a list with even numbers up to N.
@@ -86,7 +97,11 @@ Step 5:	 Print the list l which contains all even numbers from 1 to a-1.
 
 Step 6:	 Terminate the program.
 ### PROGRAM
-```def createlist(a):
+```python
+# Name : Nevil Joe Ferdin P
+# Reg No : 212222050041
+
+def createlist(a):
     l=[]
     for i in range(1,a):
         if (i%2==0):
@@ -99,7 +114,7 @@ Step 6:	 Terminate the program.
 ### RESULT
 Thus the python program for printing a list with even numbers up to n, was implemented and executed successfully.
 
-Exp.No:3(d)	TUPLES- A TUPLE WITH MULTIPLES OF 5
+## Exp.No:3(d)	TUPLES- A TUPLE WITH MULTIPLES OF 5
 ### AIM
 To write a python program to create the tuple by the multiples of 5 up to N. Get the N value from the user.
 ### ALGORITHM
@@ -118,7 +133,10 @@ Step 6:	 print the resultant tuple.
 
 Step 7:	 Terminate the program.
 ### PROGRAM
-```
+```python
+# Name : Nevil Joe Ferdin P
+# Reg No : 212222050041
+
 def create_tuple(N):
     multiples_of_5 = tuple(i for i in range(5, N, 5))
     return multiples_of_5
@@ -134,7 +152,7 @@ print(f"{result}")
 ### RESULT
 Thus the python program for printing a tuple with numbers that are multiples of 5 up to n, was implemented and executed successfully.
 
-Exp.No:3(e)	SEB- STRING SLICING
+## Exp.No:3(e)	SEB- STRING SLICING
 ### AIM
 To write a python function that accepts the string. Form a new string by reversing the characters in the given string from 4 th position to 10  th position with alternate characters and print the new string.
 ### ALGORITHM
@@ -151,7 +169,10 @@ Step 5:	 Print the sliced string in the above step.
 
 Step 6:	 Terminate the program.
 ### PROGRAM
-```
+```python
+# Name : Nevil Joe Ferdin P
+# Reg No : 212222050041
+
 def slice(input_string):
     substring = input_string[2:10:]
     reversed_substring = substring[::-1]
@@ -162,12 +183,3 @@ def slice(input_string):
 
 ### RESULT
 Thus the python function that accepts the string. Form a new string by reversing the characters in the given string from 4 th position to 10  th position with alternate characters and print the new string was implemented and executed successfully.
-
-
-
-
-
-
-
-
-
